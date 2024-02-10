@@ -1,5 +1,8 @@
-/* Asterix wildcard selector to override default settings added by the browser */
 
+/*  Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* Asterix wildcard selector to override default settings added by the browser */
 * {
     padding: 0;
     margin: 0;
