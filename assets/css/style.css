@@ -18,13 +18,16 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
+
+/* Utility function to hide elements from the user but still be available for search engines*/
+.hidden-heading {
+    display: none;
 }
 
 /* Header */
