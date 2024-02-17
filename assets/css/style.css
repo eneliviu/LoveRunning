@@ -1,3 +1,4 @@
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
@@ -29,6 +30,8 @@ h1,h2,h3 {
 .hidden-heading {
     display: none;
 }
+
+/* ------------------------------ HEADER ------------------------*/
 
 /* Header */
 header {
@@ -62,6 +65,8 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* ------------------------------ NAVBAR ------------------------*/
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -86,6 +91,8 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+/* ------------------------------ MAIN CONTENT ------------------------*/
 
 /* Main content */
 main {
@@ -184,13 +191,27 @@ main {
     border: 2px solid white; 
 }
 
-
-
 #times h3 {
     /* Override the heading color set in general styles */
     color:#fafafa
 
 }
+
+
+/* ------------------------------ GALLERY PAGE ------------------------*/
+
+#photos img{
+    width:100%;
+    line-height: 1em;
+}
+
+#photos{
+    line-height: 0px;
+}
+
+
+
+/* ------------------------------ FOOTER ------------------------*/
 
 /* Footer */
 #social-networks {
@@ -207,7 +228,11 @@ main {
     color: #3a3a3a;
 }
 
+
+/* ------------------------ Media queryies ----------------------*/
+
 /* Media query: tablets and larger (768px and up) */
+
 @media screen and (min-width: 768px) {
 
     /* Header */
